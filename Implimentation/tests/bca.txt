@@ -1,0 +1,10 @@
+Clump Thickness:1,2,3,4,5,6,7,8,9,10,?
+Cell Size:1,2,3,4,5,6,7,8,9,10,?
+Cell Shape:1,2,3,4,5,6,7,8,9,10,?
+Marginal Adhesion:1,2,3,4,5,6,7,8,9,10,?
+Single Epithelial Cell Size:1,2,3,4,5,6,7,8,9,10,?
+Bare Nuclei:1,2,3,4,5,6,7,8,9,10,?
+Bland Chromatin:1,2,3,4,5,6,7,8,9,10,?
+Normal Nucleoli:1,2,3,4,5,6,7,8,9,10,?
+Mitoses:1,2,3,4,5,6,7,8,9,10,?
+Class:2,4
