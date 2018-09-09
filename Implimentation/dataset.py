@@ -208,4 +208,4 @@ class DataSet:
 	        for i in range(len(attrs)):
 	            print("Attribute: ",attrs[i].name," Type: ",attrs[i].attr_type)
 	        print('No of classes in Classification attribute:',k)
-	    
+	       

@@ -13,7 +13,6 @@ import sys
 
 import attributes
 import dataset
-DEBUG=True
 parser = argparse.ArgumentParser(
            description='Train (and optionally test) a decision tree')
 parser.add_argument('dtree_module',
@@ -21,6 +20,10 @@ parser.add_argument('dtree_module',
                     help='Decision tree module name')
 parser.add_argument('classifier',
                     help='Name of the attribute to use for classification')
+parser.add_argument('--debug',
+                    type=bool,
+                    help='to set debug to True',
+                    dest='debug')
 parser.add_argument('--attributes',
                     type=argparse.FileType('r'),
                     help='Name of the attribute specification file',
@@ -36,7 +39,7 @@ parser.add_argument('--test',
                     dest='testing_file',
                     help='Name of the file to use for testing')
 args = parser.parse_args()
-
+debug=args.debug
 # Read in a complete list of attributes.
 # global all_attributes
 all_attributes = attributes.Attributes(args.attributes_file)
@@ -54,15 +57,15 @@ else:
 
 # Train
 training_data = dataset.DataSet(args.training_file, all_attributes)
-training_data.discretize(classifier,all_attributes,debug=DEBUG)
+training_data.discretize(classifier,all_attributes,debug)
 starting_attrs = copy.copy(all_attributes)
 starting_attrs.remove(classifier)
-dtree = dtree_pkg.DTree(classifier, training_data, starting_attrs,debug=DEBUG)
+dtree = dtree_pkg.DTree(classifier, training_data, starting_attrs,debug)
 print(dtree.dump())
 
 if args.testing_file:
   testing_data = dataset.DataSet(args.testing_file, all_attributes)
-  correct_results = dtree.test(classifier, testing_data,debug=DEBUG)
+  correct_results = dtree.test(classifier, testing_data,debug)
   print(("%d of %d (%.2f%%) of testing examples correctly identified" %
         (correct_results, len(testing_data),
          (float(correct_results) * 100.0)/ float(len(testing_data)))))
