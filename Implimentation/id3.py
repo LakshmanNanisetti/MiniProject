@@ -26,7 +26,7 @@ from attributes import Attribute
 class DTree:
     """Represents a decision tree created with the ID3 algorithm"""
 
-    def __init__(self, classifier, training_data, attributes):
+    def __init__(self, classifier, training_data, attributes,debug=False):
         """
         Creates a new decision tree
 
@@ -40,7 +40,7 @@ class DTree:
 
         # initialize the beginning of the tree
         root = Node(data=self.training_data, parent=None, children=list(), attribute=None)
-        self.id3(root=root, target_attribute=self.classifier, attrs=self.attributes, debug=False)
+        self.id3(root=root, target_attribute=self.classifier, attrs=self.attributes, debug=debug)
         self.decision_tree = root
 
     def test(self, classifier, testing_data, debug=False):

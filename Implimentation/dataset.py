@@ -201,8 +201,11 @@ class DataSet:
         partial_set = [x for x in self.all_examples if x.get_value(classifier) == value]
         return float(len(partial_set))
 
-    def discretize(self, class_attr, attrs):
+    def discretize(self, class_attr, attrs,debug=False):
         k = len(class_attr.values)
-        for i in range(len(attrs)):
-            print(attrs[i].attr_type)
-        print('k=',k)
+        if debug is True:
+        	print("Attribute Types:(0:-nominal 1:-numeric)")
+	        for i in range(len(attrs)):
+	            print("Attribute: ",attrs[i].name," Type: ",attrs[i].attr_type)
+	        print('No of classes in Classification attribute:',k)
+	    

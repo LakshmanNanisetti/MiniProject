@@ -14,7 +14,7 @@ import sys
 class Attribute:
     'A single attribute description: name + permissible values'
 
-    def __init__(self, name, values, attr_type):
+    def __init__(self, name, values, attr_type=0):
         self.name = name
         self.values = values
         self.attr_type = attr_type
