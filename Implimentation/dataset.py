@@ -200,3 +200,9 @@ class DataSet:
         value = classifier.values[0]
         partial_set = [x for x in self.all_examples if x.get_value(classifier) == value]
         return float(len(partial_set))
+
+    def discretize(self, class_attr, attrs):
+        k = len(class_attr.values)
+        for i in range(len(attrs)):
+            print(attrs[i].attr_type)
+        print('k=',k)

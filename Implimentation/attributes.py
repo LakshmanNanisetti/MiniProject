@@ -14,9 +14,10 @@ import sys
 class Attribute:
     'A single attribute description: name + permissible values'
 
-    def __init__(self, name, values):
+    def __init__(self, name, values, attr_type):
         self.name = name
         self.values = values
+        self.attr_type = attr_type
 
     def __str__(self):
         return self.name + ' --> ' + str(self.values)
@@ -40,8 +41,9 @@ class Attributes:
                                (attribute_file.name, line_num))
                     sys.exit(1)
                 name = valid_line.group(1)
-                values = valid_line.group(2).split(',')
-                new_attr = Attribute(name, values)
+                attr_type = valid_line.group(2).split(',')[0]
+                values = valid_line.group(2).split(',')[1:]
+                new_attr = Attribute(name, values, attr_type)
                 self.attributes.append(new_attr)
                 line_num += 1
 

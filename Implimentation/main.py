@@ -54,6 +54,7 @@ else:
 
 # Train
 training_data = dataset.DataSet(args.training_file, all_attributes)
+training_data.discretize(all_attribures[classifier],all_attributes)
 starting_attrs = copy.copy(all_attributes)
 starting_attrs.remove(classifier)
 dtree = dtree_pkg.DTree(classifier, training_data, starting_attrs)
