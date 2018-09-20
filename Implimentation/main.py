@@ -69,4 +69,3 @@ if args.testing_file:
   print(("%d of %d (%.2f%%) of testing examples correctly identified" %
         (correct_results, len(testing_data),
          (float(correct_results) * 100.0)/ float(len(testing_data)))))
-

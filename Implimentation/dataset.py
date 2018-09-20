@@ -204,8 +204,11 @@ class DataSet:
     def discretize(self, class_attr, attrs,debug=False):
         k = len(class_attr.values)
         if debug is True:
-        	print("Attribute Types:(0:-nominal 1:-numeric)")
-	        for i in range(len(attrs)):
-	            print("Attribute: ",attrs[i].name," Type: ",attrs[i].attr_type)
-	        print('No of classes in Classification attribute:',k)
-	       
+            print("Attribute Types:")
+            for i in range(len(attrs)):
+                print("Attribute: ",attrs[i].name," Type: ",end='')
+                if attrs[i].attr_type==0:
+                    print("nominal")
+                else:
+                    print("numeric")
+            print('No of classes in Classification attribute:',k)
