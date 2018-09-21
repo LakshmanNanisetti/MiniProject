@@ -29,6 +29,8 @@ class Example:
                 sys.stderr.write("%s: %d: Value %s not in known values %s for attribute %s\n" %
                                  (filename, line_num, value, attr.values, attr.name))
                 sys.exit(1)
+            if attr.attr_type=='1':
+                value=float(value)
             self.values[attr.name] = value
 
     # Find a value for the specified attribute, which may be specified as
@@ -207,8 +209,22 @@ class DataSet:
             print("Attribute Types:")
             for i in range(len(attrs)):
                 print("Attribute: ",attrs[i].name," Type: ",end='')
-                if attrs[i].attr_type==0:
-                    print("nominal")
-                else:
+                if attrs[i].attr_type=='1':
                     print("numeric")
-            print('No of classes in Classification attribute:',k)
+                else:
+                 print("nominal")
+            print("No of classes in Classification attribute:",k)
+        insts={}
+        ind = attrs.index(class_attr)
+        for i in range(len(attrs)):
+            if attrs[i].name!=class_attr.name and attrs[i].attr_type==1:
+                insts[attrs[i].name]={}
+                for j in range(k):
+                    insts[attrs[i].name][class_attr.values[j]]=set([])
+                for ex in self.all_examples:
+                    insts[attrs[i].name][ex.values[class_attr.name]].add(ex.values[attrs[i].name])
+        if debug is True:
+            print("seperation of values on clasification class:")
+            print(insts)
+
+

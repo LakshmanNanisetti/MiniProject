@@ -20,21 +20,21 @@ parser.add_argument('dtree_module',
                     help='Decision tree module name')
 parser.add_argument('classifier',
                     help='Name of the attribute to use for classification')
-parser.add_argument('--debug',
-                    type=bool,
-                    help='to set debug to True',
+parser.add_argument('-d', '--debug', 
+                    action='store_true',
+                    default=False,
                     dest='debug')
-parser.add_argument('--attributes',
+parser.add_argument('-a','--attributes',
                     type=argparse.FileType('r'),
                     help='Name of the attribute specification file',
                     dest='attributes_file',
                     required=True)
-parser.add_argument('--train',
+parser.add_argument('-l','--train',
                     type=argparse.FileType('r'),
-                    help='Name of the file to use for training',
+                    help='Name of the file to use for training/learning',
                     dest='training_file',
                     required=True)
-parser.add_argument('--test',
+parser.add_argument('-t','--test',
                     type=argparse.FileType('r'),
                     dest='testing_file',
                     help='Name of the file to use for testing')
@@ -57,7 +57,7 @@ else:
 
 # Train
 training_data = dataset.DataSet(args.training_file, all_attributes)
-training_data.discretize(classifier,all_attributes,debug)
+training_data.discretize(classifier,all_attributes.attributes,debug)
 starting_attrs = copy.copy(all_attributes)
 starting_attrs.remove(classifier)
 dtree = dtree_pkg.DTree(classifier, training_data, starting_attrs,debug)
