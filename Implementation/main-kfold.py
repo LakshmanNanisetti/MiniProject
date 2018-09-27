@@ -26,17 +26,17 @@ parser.add_argument('dtree_module',
                     help='Decision tree module name')
 parser.add_argument('classifier',
                     help='Name of the attribute to use for classification')
-parser.add_argument('--attributes',
+parser.add_argument('-a','--attributes',
                     type=argparse.FileType('r'),
                     help='Name of the attribute specification file',
                     dest='attributes_file',
                     required=True)
-parser.add_argument('--data',
+parser.add_argument('-d','--data',
                     type=argparse.FileType('r'),
                     help='Name of the file with all of the data',
                     dest='data_file',
                     required=True)
-parser.add_argument('--k_value',
+parser.add_argument('-k','--k_value',
                     dest='k_value',
                     help='Number of partitions')
 args = parser.parse_args()

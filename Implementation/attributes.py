@@ -6,7 +6,6 @@ the format described in section 1. Note that attributes are sometimes treated as
 mapping the values to attributes), and sometimes treated as keyed (when accessing attributes to retrieve the possible
 values).
 """
-
 import re
 import sys
 from operator import itemgetter
@@ -112,9 +111,11 @@ class Attributes:
         insts={}
         inters={}
         subinters={}
+        num=0
         for i in range(len(attrs)):
             attr=attrs[i].name
             if attr!=class_attr.name and attrs[i].attr_type=='1':
+                num=num+1
                 insts[attr]={}
                 inters[attr]={}
                 subinters[attr]={}
@@ -144,6 +145,19 @@ class Attributes:
                         else:
                             #range is added as subintervels
                             subinters[attr][cls_val].append([min(lst),max(lst)])
+                if debug is True:
+                    print("seperation of values on clasification class:")
+                    print(insts)
+                    print("min max:")
+                    print(inters)
+                    print("sub inters:")
+                    print(subinters)
+        
+        #
+
+
+
+
 
                     #todo
                     """
@@ -159,10 +173,4 @@ class Attributes:
 
                     """
 
-        if debug is True:
-            print("seperation of values on clasification class:")
-            print(insts)
-            print("min max:")
-            print(inters)
-            print("sub inters:")
-            print(subinters)
+

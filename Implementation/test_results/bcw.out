@@ -1,465 +1,402 @@
-Cell Size:1
- Bare Nuclei:1
+Cell Size:1.0
+ Bare Nuclei:1.0
   <2>
- Bare Nuclei:10
-  Bland Chromatin:1
-   <4>
-  Bland Chromatin:10
-   <4>
-  Bland Chromatin:2
-   <4>
-  Bland Chromatin:3
-   <2>
-  Bland Chromatin:4
-   <4>
-  Bland Chromatin:5
-   <4>
-  Bland Chromatin:6
-   <4>
-  Bland Chromatin:7
-   <4>
-  Bland Chromatin:8
-   <4>
-  Bland Chromatin:9
-   <4>
-  Bland Chromatin:?
-   <4>
- Bare Nuclei:2
+ Bare Nuclei:2.0
   <2>
- Bare Nuclei:3
+ Bare Nuclei:3.0
   <2>
- Bare Nuclei:4
+ Bare Nuclei:4.0
   <2>
- Bare Nuclei:5
-  Clump Thickness:1
+ Bare Nuclei:5.0
+  Clump Thickness:1.0
    <2>
-  Clump Thickness:10
+  Clump Thickness:2.0
    <2>
-  Clump Thickness:2
+  Clump Thickness:3.0
    <2>
-  Clump Thickness:3
-   <2>
-  Clump Thickness:4
+  Clump Thickness:4.0
    <4>
-  Clump Thickness:5
+  Clump Thickness:5.0
    <2>
-  Clump Thickness:6
+  Clump Thickness:6.0
    <4>
-  Clump Thickness:7
+  Clump Thickness:7.0
    <2>
-  Clump Thickness:8
+  Clump Thickness:8.0
    <2>
-  Clump Thickness:9
+  Clump Thickness:9.0
    <2>
-  Clump Thickness:?
+  Clump Thickness:10.0
    <2>
- Bare Nuclei:6
+ Bare Nuclei:6.0
   <2>
- Bare Nuclei:7
+ Bare Nuclei:7.0
   <2>
- Bare Nuclei:8
+ Bare Nuclei:8.0
   <2>
- Bare Nuclei:9
+ Bare Nuclei:9.0
   <2>
- Bare Nuclei:?
+ Bare Nuclei:10.0
+  Bland Chromatin:1.0
+   <4>
+  Bland Chromatin:2.0
+   <4>
+  Bland Chromatin:3.0
+   <2>
+  Bland Chromatin:4.0
+   <4>
+  Bland Chromatin:5.0
+   <4>
+  Bland Chromatin:6.0
+   <4>
+  Bland Chromatin:7.0
+   <4>
+  Bland Chromatin:8.0
+   <4>
+  Bland Chromatin:9.0
+   <4>
+  Bland Chromatin:10.0
+   <4>
+Cell Size:2.0
+ Bare Nuclei:1.0
+  Bland Chromatin:1.0
+   <2>
+  Bland Chromatin:2.0
+   <2>
+  Bland Chromatin:3.0
+   <2>
+  Bland Chromatin:4.0
+   <2>
+  Bland Chromatin:5.0
+   <4>
+  Bland Chromatin:6.0
+   <2>
+  Bland Chromatin:7.0
+   <2>
+  Bland Chromatin:8.0
+   <2>
+  Bland Chromatin:9.0
+   <2>
+  Bland Chromatin:10.0
+   <2>
+ Bare Nuclei:2.0
   <2>
-Cell Size:10
+ Bare Nuclei:3.0
+  Bland Chromatin:1.0
+   <2>
+  Bland Chromatin:2.0
+   <2>
+  Bland Chromatin:3.0
+   <2>
+  Bland Chromatin:4.0
+   <2>
+  Bland Chromatin:5.0
+   <2>
+  Bland Chromatin:6.0
+   <2>
+  Bland Chromatin:7.0
+   <4>
+  Bland Chromatin:8.0
+   <2>
+  Bland Chromatin:9.0
+   <2>
+  Bland Chromatin:10.0
+   <2>
+ Bare Nuclei:4.0
+  Bland Chromatin:1.0
+   <2>
+  Bland Chromatin:2.0
+   <2>
+  Bland Chromatin:3.0
+   <4>
+  Bland Chromatin:4.0
+   <2>
+  Bland Chromatin:5.0
+   <2>
+  Bland Chromatin:6.0
+   <2>
+  Bland Chromatin:7.0
+   <2>
+  Bland Chromatin:8.0
+   <2>
+  Bland Chromatin:9.0
+   <2>
+  Bland Chromatin:10.0
+   <2>
+ Bare Nuclei:5.0
+  <2>
+ Bare Nuclei:6.0
+  <4>
+ Bare Nuclei:7.0
+  <4>
+ Bare Nuclei:8.0
+  <4>
+ Bare Nuclei:9.0
+  <2>
+ Bare Nuclei:10.0
+  <4>
+Cell Size:3.0
+ Bare Nuclei:1.0
+  <2>
+ Bare Nuclei:2.0
+  Cell Shape:1.0
+   <2>
+  Cell Shape:2.0
+   <2>
+  Cell Shape:3.0
+   <2>
+  Cell Shape:4.0
+   <4>
+  Cell Shape:5.0
+   <2>
+  Cell Shape:6.0
+   <2>
+  Cell Shape:7.0
+   <2>
+  Cell Shape:8.0
+   <2>
+  Cell Shape:9.0
+   <2>
+  Cell Shape:10.0
+   <2>
+ Bare Nuclei:3.0
+  Cell Shape:1.0
+   <4>
+  Cell Shape:2.0
+   <2>
+  Cell Shape:3.0
+   <4>
+  Cell Shape:4.0
+   <4>
+  Cell Shape:5.0
+   <4>
+  Cell Shape:6.0
+   <4>
+  Cell Shape:7.0
+   <4>
+  Cell Shape:8.0
+   <4>
+  Cell Shape:9.0
+   <4>
+  Cell Shape:10.0
+   <4>
+ Bare Nuclei:4.0
+  <4>
+ Bare Nuclei:5.0
+  Clump Thickness:1.0
+   <4>
+  Clump Thickness:2.0
+   <4>
+  Clump Thickness:3.0
+   <4>
+  Clump Thickness:4.0
+   <4>
+  Clump Thickness:5.0
+   <2>
+  Clump Thickness:6.0
+   <4>
+  Clump Thickness:7.0
+   <4>
+  Clump Thickness:8.0
+   <4>
+  Clump Thickness:9.0
+   <4>
+  Clump Thickness:10.0
+   <4>
+ Bare Nuclei:6.0
+  <2>
+ Bare Nuclei:7.0
+  <4>
+ Bare Nuclei:8.0
+  <4>
+ Bare Nuclei:9.0
+  <4>
+ Bare Nuclei:10.0
+  Clump Thickness:1.0
+   <4>
+  Clump Thickness:2.0
+   <4>
+  Clump Thickness:3.0
+   <4>
+  Clump Thickness:4.0
+   <4>
+  Clump Thickness:5.0
+   <4>
+  Clump Thickness:6.0
+   <2>
+  Clump Thickness:7.0
+   <4>
+  Clump Thickness:8.0
+   <4>
+  Clump Thickness:9.0
+   <4>
+  Clump Thickness:10.0
+   <4>
+Cell Size:4.0
+ Clump Thickness:1.0
+  <4>
+ Clump Thickness:2.0
+  <4>
+ Clump Thickness:3.0
+  Bare Nuclei:1.0
+   <4>
+  Bare Nuclei:2.0
+   <4>
+  Bare Nuclei:3.0
+   <2>
+  Bare Nuclei:4.0
+   <4>
+  Bare Nuclei:5.0
+   <4>
+  Bare Nuclei:6.0
+   <4>
+  Bare Nuclei:7.0
+   <4>
+  Bare Nuclei:8.0
+   <4>
+  Bare Nuclei:9.0
+   <4>
+  Bare Nuclei:10.0
+   <4>
+ Clump Thickness:4.0
+  <2>
+ Clump Thickness:5.0
+  Bland Chromatin:1.0
+   <4>
+  Bland Chromatin:2.0
+   <4>
+  Bland Chromatin:3.0
+   <2>
+  Bland Chromatin:4.0
+   <4>
+  Bland Chromatin:5.0
+   <4>
+  Bland Chromatin:6.0
+   <4>
+  Bland Chromatin:7.0
+   <4>
+  Bland Chromatin:8.0
+   <4>
+  Bland Chromatin:9.0
+   <4>
+  Bland Chromatin:10.0
+   <4>
+ Clump Thickness:6.0
+  <4>
+ Clump Thickness:7.0
+  <4>
+ Clump Thickness:8.0
+  Bare Nuclei:1.0
+   <2>
+  Bare Nuclei:2.0
+   <4>
+  Bare Nuclei:3.0
+   <4>
+  Bare Nuclei:4.0
+   <4>
+  Bare Nuclei:5.0
+   <4>
+  Bare Nuclei:6.0
+   <4>
+  Bare Nuclei:7.0
+   <2>
+  Bare Nuclei:8.0
+   <4>
+  Bare Nuclei:9.0
+   <4>
+  Bare Nuclei:10.0
+   <4>
+ Clump Thickness:9.0
+  <4>
+ Clump Thickness:10.0
+  <4>
+Cell Size:5.0
  <4>
-Cell Size:2
- Bare Nuclei:1
-  Bland Chromatin:1
-   <2>
-  Bland Chromatin:10
-   <2>
-  Bland Chromatin:2
-   <2>
-  Bland Chromatin:3
-   <2>
-  Bland Chromatin:4
-   <2>
-  Bland Chromatin:5
-   <4>
-  Bland Chromatin:6
-   <2>
-  Bland Chromatin:7
-   <2>
-  Bland Chromatin:8
-   <2>
-  Bland Chromatin:9
-   <2>
-  Bland Chromatin:?
-   <2>
- Bare Nuclei:10
-  <4>
- Bare Nuclei:2
-  <2>
- Bare Nuclei:3
-  Bland Chromatin:1
-   <2>
-  Bland Chromatin:10
-   <2>
-  Bland Chromatin:2
-   <2>
-  Bland Chromatin:3
-   <2>
-  Bland Chromatin:4
-   <2>
-  Bland Chromatin:5
-   <2>
-  Bland Chromatin:6
-   <2>
-  Bland Chromatin:7
-   <4>
-  Bland Chromatin:8
-   <2>
-  Bland Chromatin:9
-   <2>
-  Bland Chromatin:?
-   <2>
- Bare Nuclei:4
-  Bland Chromatin:1
-   <2>
-  Bland Chromatin:10
-   <2>
-  Bland Chromatin:2
-   <2>
-  Bland Chromatin:3
-   <4>
-  Bland Chromatin:4
-   <2>
-  Bland Chromatin:5
-   <2>
-  Bland Chromatin:6
-   <2>
-  Bland Chromatin:7
-   <2>
-  Bland Chromatin:8
-   <2>
-  Bland Chromatin:9
-   <2>
-  Bland Chromatin:?
-   <2>
- Bare Nuclei:5
-  <2>
- Bare Nuclei:6
-  <4>
- Bare Nuclei:7
-  <4>
- Bare Nuclei:8
-  <4>
- Bare Nuclei:9
-  <2>
- Bare Nuclei:?
-  <2>
-Cell Size:3
- Bare Nuclei:1
-  <2>
- Bare Nuclei:10
-  Clump Thickness:1
-   <4>
-  Clump Thickness:10
-   <4>
-  Clump Thickness:2
-   <4>
-  Clump Thickness:3
-   <4>
-  Clump Thickness:4
-   <4>
-  Clump Thickness:5
-   <4>
-  Clump Thickness:6
-   <2>
-  Clump Thickness:7
-   <4>
-  Clump Thickness:8
-   <4>
-  Clump Thickness:9
-   <4>
-  Clump Thickness:?
-   <4>
- Bare Nuclei:2
-  Cell Shape:1
-   <2>
-  Cell Shape:10
-   <2>
-  Cell Shape:2
-   <2>
-  Cell Shape:3
-   <2>
-  Cell Shape:4
-   <4>
-  Cell Shape:5
-   <2>
-  Cell Shape:6
-   <2>
-  Cell Shape:7
-   <2>
-  Cell Shape:8
-   <2>
-  Cell Shape:9
-   <2>
-  Cell Shape:?
-   <2>
- Bare Nuclei:3
-  Cell Shape:1
-   <4>
-  Cell Shape:10
-   <4>
-  Cell Shape:2
-   <2>
-  Cell Shape:3
-   <4>
-  Cell Shape:4
-   <4>
-  Cell Shape:5
-   <4>
-  Cell Shape:6
-   <4>
-  Cell Shape:7
-   <4>
-  Cell Shape:8
-   <4>
-  Cell Shape:9
-   <4>
-  Cell Shape:?
-   <4>
- Bare Nuclei:4
-  <4>
- Bare Nuclei:5
-  Clump Thickness:1
-   <4>
-  Clump Thickness:10
-   <4>
-  Clump Thickness:2
-   <4>
-  Clump Thickness:3
-   <4>
-  Clump Thickness:4
-   <4>
-  Clump Thickness:5
-   <2>
-  Clump Thickness:6
-   <4>
-  Clump Thickness:7
-   <4>
-  Clump Thickness:8
-   <4>
-  Clump Thickness:9
-   <4>
-  Clump Thickness:?
-   <4>
- Bare Nuclei:6
-  <2>
- Bare Nuclei:7
-  <4>
- Bare Nuclei:8
-  <4>
- Bare Nuclei:9
-  <4>
- Bare Nuclei:?
-  <2>
-Cell Size:4
- Clump Thickness:1
-  <4>
- Clump Thickness:10
-  <4>
- Clump Thickness:2
-  <4>
- Clump Thickness:3
-  Bare Nuclei:1
-   <4>
-  Bare Nuclei:10
-   <4>
-  Bare Nuclei:2
-   <4>
-  Bare Nuclei:3
-   <2>
-  Bare Nuclei:4
-   <4>
-  Bare Nuclei:5
-   <4>
-  Bare Nuclei:6
-   <4>
-  Bare Nuclei:7
-   <4>
-  Bare Nuclei:8
-   <4>
-  Bare Nuclei:9
-   <4>
-  Bare Nuclei:?
-   <4>
- Clump Thickness:4
-  <2>
- Clump Thickness:5
-  Bland Chromatin:1
-   <4>
-  Bland Chromatin:10
-   <4>
-  Bland Chromatin:2
-   <2>
-  Bland Chromatin:3
-   <2>
-  Bland Chromatin:4
-   <4>
-  Bland Chromatin:5
-   <4>
-  Bland Chromatin:6
-   <4>
-  Bland Chromatin:7
-   <4>
-  Bland Chromatin:8
-   <4>
-  Bland Chromatin:9
-   <4>
-  Bland Chromatin:?
-   <4>
- Clump Thickness:6
-  <4>
- Clump Thickness:7
-  <4>
- Clump Thickness:8
-  Bare Nuclei:1
-   <2>
-  Bare Nuclei:10
-   <4>
-  Bare Nuclei:2
-   <4>
-  Bare Nuclei:3
-   <4>
-  Bare Nuclei:4
-   <4>
-  Bare Nuclei:5
-   <4>
-  Bare Nuclei:6
-   <4>
-  Bare Nuclei:7
-   <2>
-  Bare Nuclei:8
-   <4>
-  Bare Nuclei:9
-   <4>
-  Bare Nuclei:?
-   <4>
- Clump Thickness:9
-  <4>
- Clump Thickness:?
-  <4>
-Cell Size:5
+Cell Size:6.0
  <4>
-Cell Size:6
- Bare Nuclei:1
+Cell Size:7.0
+ Bare Nuclei:1.0
   <4>
- Bare Nuclei:10
+ Bare Nuclei:2.0
   <4>
- Bare Nuclei:2
+ Bare Nuclei:3.0
   <4>
- Bare Nuclei:3
+ Bare Nuclei:4.0
   <4>
- Bare Nuclei:4
+ Bare Nuclei:5.0
   <4>
- Bare Nuclei:5
+ Bare Nuclei:6.0
   <4>
- Bare Nuclei:6
+ Bare Nuclei:7.0
   <4>
- Bare Nuclei:7
-  <4>
- Bare Nuclei:8
-  <4>
- Bare Nuclei:9
-  <4>
- Bare Nuclei:?
+ Bare Nuclei:8.0
   <2>
-Cell Size:7
- Bare Nuclei:1
+ Bare Nuclei:9.0
   <4>
- Bare Nuclei:10
+ Bare Nuclei:10.0
   <4>
- Bare Nuclei:2
+Cell Size:8.0
+ Bare Nuclei:1.0
   <4>
- Bare Nuclei:3
+ Bare Nuclei:2.0
   <4>
- Bare Nuclei:4
+ Bare Nuclei:3.0
   <4>
- Bare Nuclei:5
-  <4>
- Bare Nuclei:6
-  <4>
- Bare Nuclei:7
-  <4>
- Bare Nuclei:8
-  <2>
- Bare Nuclei:9
-  <4>
- Bare Nuclei:?
-  <4>
-Cell Size:8
- Bare Nuclei:1
-  <4>
- Bare Nuclei:10
-  <4>
- Bare Nuclei:2
-  <4>
- Bare Nuclei:3
-  <4>
- Bare Nuclei:4
-  Bland Chromatin:1
+ Bare Nuclei:4.0
+  Bland Chromatin:1.0
    <4>
-  Bland Chromatin:10
+  Bland Chromatin:2.0
    <4>
-  Bland Chromatin:2
-   <4>
-  Bland Chromatin:3
+  Bland Chromatin:3.0
    <2>
-  Bland Chromatin:4
+  Bland Chromatin:4.0
    <4>
-  Bland Chromatin:5
+  Bland Chromatin:5.0
    <4>
-  Bland Chromatin:6
+  Bland Chromatin:6.0
    <4>
-  Bland Chromatin:7
+  Bland Chromatin:7.0
    <4>
-  Bland Chromatin:8
+  Bland Chromatin:8.0
    <4>
-  Bland Chromatin:9
+  Bland Chromatin:9.0
    <4>
-  Bland Chromatin:?
+  Bland Chromatin:10.0
    <4>
- Bare Nuclei:5
+ Bare Nuclei:5.0
   <4>
- Bare Nuclei:6
+ Bare Nuclei:6.0
   <4>
- Bare Nuclei:7
+ Bare Nuclei:7.0
   <4>
- Bare Nuclei:8
+ Bare Nuclei:8.0
   <4>
- Bare Nuclei:9
+ Bare Nuclei:9.0
   <4>
- Bare Nuclei:?
+ Bare Nuclei:10.0
   <4>
-Cell Size:9
- Bare Nuclei:1
+Cell Size:9.0
+ Bare Nuclei:1.0
   <4>
- Bare Nuclei:10
+ Bare Nuclei:2.0
   <4>
- Bare Nuclei:2
+ Bare Nuclei:3.0
   <4>
- Bare Nuclei:3
+ Bare Nuclei:4.0
   <4>
- Bare Nuclei:4
+ Bare Nuclei:5.0
   <4>
- Bare Nuclei:5
+ Bare Nuclei:6.0
   <4>
- Bare Nuclei:6
+ Bare Nuclei:7.0
   <4>
- Bare Nuclei:7
-  <4>
- Bare Nuclei:8
+ Bare Nuclei:8.0
   <2>
- Bare Nuclei:9
+ Bare Nuclei:9.0
   <4>
- Bare Nuclei:?
+ Bare Nuclei:10.0
   <4>
-Cell Size:?
- <2>
+Cell Size:10.0
+ <4>
 
-119 of 119 (100.00%) of testing examples correctly identified
+118 of 118 (100.00%) of testing examples correctly identified
