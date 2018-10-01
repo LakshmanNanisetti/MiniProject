@@ -1,8 +1,4 @@
 """
-File:           id3.py
-
-Author:         Alexander Adranly
-
 Description:
 
 ID3 Construction:

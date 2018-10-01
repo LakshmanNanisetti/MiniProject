@@ -145,39 +145,56 @@ A __terminal__ node is represented as:
 
 Each line is indented one space for each level it is below the first.
 
-For example, consider the following decision tree for classifying wine:
+For example, consider the following decision tree for classifying brest cancer:
 
-    Color
+    Cell Size
         |
-        ->White
-        |   |
-        |   -><YES>
-        |
-        ->Red
+        ->1.0
            |
-           ->Age
+           -Bare Nuclei
                 |
-                ->[0..5]
+                ->[1.0-4.0]
+                |    |
+                |    -><2>
+                ->5.0
                 |   |
-                |   -><YES>
-                |
-                ->[5..10]
+                |   -Clump Thickness
                 |   |
-                |   -><NO>
+                |   ->[1.0-4.0]
+                |        |   
+                |        -><2>
                 |
-                ->[10..99]
+                .
+                .
+                .
+                .
+                ->[6.0-9.0]
                     |
-                    -><YES>        
+                    -Bland Chromatin
+                    |       |
+                    |       ->[1.0-2.0]
+                    |           |
+                    |           -><4>
+                    .
+                    .
+
 It would be represented as:
 
-    color:white
-        <YES>
-    color:red
-        age:[0..5]
-            <YES>
-        age:[5..10]
-            <NO>
-        age:[10..99]
-            <YES>
+    Cell Size:1.0
+     Bare Nuclei:[1.0-4.0]
+      <2>
+     Bare Nuclei:5.0
+      Clump Thickness:[1.0-4.0]
+       <2>
+       .
+       .
+       .
+     Bare Nuclei:[6.0-9.0]
+      Bland Chromatin:[1.0-2.0]
+       <4>
+       .
+       .
+       .
+
 
 ___________________________________________________________________________________________________________________________________

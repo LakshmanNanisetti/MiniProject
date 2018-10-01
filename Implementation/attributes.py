@@ -113,12 +113,12 @@ class Attributes:
         subinters={}
         num=0
         for i in range(len(attrs)):
-            attr=attrs[i].name
-            if attr!=class_attr.name and attrs[i].attr_type=='1':
-                num=num+1
-                insts[attr]={}
-                inters[attr]={}
-                subinters[attr]={}
+            attr = attrs[i].name
+            if attr != class_attr.name and attrs[i].attr_type == '1':
+                num += 1
+                insts[attr] = {}
+                inters[attr] = {}
+                subinters[attr] = {}
                 for j in range(k):
                     insts[attr][class_attr.values[j]]=set([])
                 #populating data in the dictionary
@@ -145,32 +145,16 @@ class Attributes:
                         else:
                             #range is added as subintervels
                             subinters[attr][cls_val].append([min(lst),max(lst)])
-                if debug is True:
-                    print("seperation of values on clasification class:")
-                    print(insts)
-                    print("min max:")
-                    print(inters)
-                    print("sub inters:")
-                    print(subinters)
-        
-        #
+        if debug is True:
+            print("seperation of values on clasification class:")
+            print(insts)
+            print("min max:")
+            print(inters)
+            print("sub inters:")
+            print(subinters)
+        #todo
+        """
+        combine single datapionts with nearest intervel
 
-
-
-
-
-                    #todo
-                    """
-                    combine single datapionts with nearest intervel
-
-                    sort DATA based on the attribue in each cls_val 
-
-
-
-
-
-
-
-                    """
-
-
+        sort DATA based on the attribue in each cls_val 
+        """
