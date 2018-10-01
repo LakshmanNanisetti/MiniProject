@@ -1,6 +1,12 @@
 # Mini Project - Data Mining
 
 CSE sem 7 2018-2019
+    
+    guide      Smt. Kamakshi.S
+    119003228  N.L.Veerendra
+    119003080  K.Gangadhar
+    119003107  P.Rohith Surya
+
 
 ## Overview
 
