@@ -1,5 +1,5 @@
 @echo off
-echo "train and test of Brest Cancer dataset"
+echo "train and test of acute-inflammations dataset"
 :top
 set d=
 set debug=Y

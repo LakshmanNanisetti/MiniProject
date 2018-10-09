@@ -1,0 +1,2 @@
+inflammation yes,no
+nephritis yes,no

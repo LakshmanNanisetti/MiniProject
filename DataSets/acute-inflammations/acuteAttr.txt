@@ -1,0 +1,5 @@
+nausea yes,no
+lumbar yes,no
+urine yes,no
+micturition yes,no
+burning yes,no

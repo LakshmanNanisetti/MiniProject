@@ -1,0 +1,10 @@
+Clump Thickness:1.0_5.0,6.0_10.0
+Cell Size:1.0_3.0,4.0_10.0
+Cell Shape:1.0_3.0,4.0_10.0
+Marginal Adhesion:1.0_3.0,4.0_10.0
+Single Epithelial Cell Size:1.0_2.0,3.0_10.0
+Bare Nuclei:1.0_3.0,4.0_10.0
+Bland Chromatin:1.0_3.0,4.0_10.0
+Normal Nucleoli:1.0_2.0,3.0_10.0
+Mitoses:1.0_1.0,2.0_10.0
+Class:2,4
