@@ -1,0 +1,63 @@
+IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=3.0_10.0 Bare Nuclei=4.0_10.0 Clump Thickness=6.0_10.0 Mitoses=1.0 Marginal Adhesion=4.0_10.0 THEN 4
+IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=3.0_10.0 Bare Nuclei=4.0_10.0 Clump Thickness=6.0_10.0 Mitoses=1.0 Marginal Adhesion=1.0_3.0 Bland Chromatin=1.0_3.0 THEN 4
+IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=3.0_10.0 Bare Nuclei=4.0_10.0 Clump Thickness=6.0_10.0 Mitoses=1.0 Marginal Adhesion=1.0_3.0 Bland Chromatin=4.0_10.0 THEN 4
+IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=3.0_10.0 Bare Nuclei=4.0_10.0 Clump Thickness=6.0_10.0 Mitoses=2.0_8.0_10.0 Bland Chromatin=4.0_10.0 Marginal Adhesion=4.0_10.0 THEN 4
+IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=3.0_10.0 Bare Nuclei=4.0_10.0 Clump Thickness=6.0_10.0 Mitoses=2.0_8.0_10.0 Bland Chromatin=4.0_10.0 Marginal Adhesion=1.0_3.0 THEN 4
+IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=3.0_10.0 Bare Nuclei=4.0_10.0 Clump Thickness=6.0_10.0 Mitoses=2.0_8.0_10.0 Bland Chromatin=1.0_3.0 THEN 4
+IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=3.0_10.0 Bare Nuclei=4.0_10.0 Clump Thickness=1.0_5.0 Marginal Adhesion=4.0_10.0 Bland Chromatin=4.0_10.0 Mitoses=1.0 THEN 4
+IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=3.0_10.0 Bare Nuclei=4.0_10.0 Clump Thickness=1.0_5.0 Marginal Adhesion=4.0_10.0 Bland Chromatin=4.0_10.0 Mitoses=2.0_8.0_10.0 THEN 4
+IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=3.0_10.0 Bare Nuclei=4.0_10.0 Clump Thickness=1.0_5.0 Marginal Adhesion=4.0_10.0 Bland Chromatin=1.0_3.0 THEN 4
+IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=3.0_10.0 Bare Nuclei=4.0_10.0 Clump Thickness=1.0_5.0 Marginal Adhesion=1.0_3.0 Bland Chromatin=1.0_3.0 Mitoses=1.0 THEN 2
+IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=3.0_10.0 Bare Nuclei=4.0_10.0 Clump Thickness=1.0_5.0 Marginal Adhesion=1.0_3.0 Bland Chromatin=1.0_3.0 Mitoses=2.0_8.0_10.0 THEN 2
+IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=3.0_10.0 Bare Nuclei=4.0_10.0 Clump Thickness=1.0_5.0 Marginal Adhesion=1.0_3.0 Bland Chromatin=4.0_10.0 THEN 4
+IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=3.0_10.0 Bare Nuclei=1.0_3.0 Bland Chromatin=1.0_3.0 Marginal Adhesion=1.0_3.0 Clump Thickness=1.0_5.0 THEN 2
+IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=3.0_10.0 Bare Nuclei=1.0_3.0 Bland Chromatin=1.0_3.0 Marginal Adhesion=1.0_3.0 Clump Thickness=6.0_10.0 THEN 4
+IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=3.0_10.0 Bare Nuclei=1.0_3.0 Bland Chromatin=1.0_3.0 Marginal Adhesion=4.0_10.0 THEN 4
+IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=3.0_10.0 Bare Nuclei=1.0_3.0 Bland Chromatin=4.0_10.0 Mitoses=1.0 Clump Thickness=6.0_10.0 THEN 4
+IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=3.0_10.0 Bare Nuclei=1.0_3.0 Bland Chromatin=4.0_10.0 Mitoses=1.0 Clump Thickness=1.0_5.0 Marginal Adhesion=1.0_3.0 THEN 2
+IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=3.0_10.0 Bare Nuclei=1.0_3.0 Bland Chromatin=4.0_10.0 Mitoses=1.0 Clump Thickness=1.0_5.0 Marginal Adhesion=4.0_10.0 THEN 4
+IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=3.0_10.0 Bare Nuclei=1.0_3.0 Bland Chromatin=4.0_10.0 Mitoses=2.0_8.0_10.0 THEN 4
+IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=1.0_2.0 Clump Thickness=1.0_5.0 Mitoses=1.0 Marginal Adhesion=4.0_10.0 Bland Chromatin=4.0_10.0 THEN 4
+IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=1.0_2.0 Clump Thickness=1.0_5.0 Mitoses=1.0 Marginal Adhesion=4.0_10.0 Bland Chromatin=1.0_3.0 Bare Nuclei=4.0_10.0 THEN 2
+IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=1.0_2.0 Clump Thickness=1.0_5.0 Mitoses=1.0 Marginal Adhesion=4.0_10.0 Bland Chromatin=1.0_3.0 Bare Nuclei=1.0_3.0 THEN 4
+IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=1.0_2.0 Clump Thickness=1.0_5.0 Mitoses=1.0 Marginal Adhesion=1.0_3.0 THEN 4
+IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=1.0_2.0 Clump Thickness=1.0_5.0 Mitoses=2.0_8.0_10.0 THEN 4
+IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=1.0_2.0 Clump Thickness=6.0_10.0 Bare Nuclei=4.0_10.0 Bland Chromatin=4.0_10.0 Marginal Adhesion=4.0_10.0 Mitoses=2.0_8.0_10.0 THEN 4
+IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=1.0_2.0 Clump Thickness=6.0_10.0 Bare Nuclei=4.0_10.0 Bland Chromatin=4.0_10.0 Marginal Adhesion=4.0_10.0 Mitoses=1.0 THEN 4
+IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=1.0_2.0 Clump Thickness=6.0_10.0 Bare Nuclei=4.0_10.0 Bland Chromatin=4.0_10.0 Marginal Adhesion=1.0_3.0 THEN 4
+IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=1.0_2.0 Clump Thickness=6.0_10.0 Bare Nuclei=4.0_10.0 Bland Chromatin=1.0_3.0 THEN 4
+IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=1.0_2.0 Clump Thickness=6.0_10.0 Bare Nuclei=1.0_3.0 THEN 4
+IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=1.0_3.0 Bland Chromatin=1.0_3.0 Clump Thickness=6.0_10.0 THEN 4
+IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=1.0_3.0 Bland Chromatin=1.0_3.0 Clump Thickness=1.0_5.0 THEN 2
+IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=1.0_3.0 Bland Chromatin=4.0_10.0 Bare Nuclei=4.0_10.0 Marginal Adhesion=1.0_3.0 Clump Thickness=1.0_5.0 Mitoses=1.0 Normal Nucleoli=3.0_10.0 THEN 4
+IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=1.0_3.0 Bland Chromatin=4.0_10.0 Bare Nuclei=4.0_10.0 Marginal Adhesion=1.0_3.0 Clump Thickness=1.0_5.0 Mitoses=1.0 Normal Nucleoli=1.0_2.0 THEN 4
+IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=1.0_3.0 Bland Chromatin=4.0_10.0 Bare Nuclei=4.0_10.0 Marginal Adhesion=1.0_3.0 Clump Thickness=1.0_5.0 Mitoses=2.0_8.0_10.0 THEN 4
+IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=1.0_3.0 Bland Chromatin=4.0_10.0 Bare Nuclei=4.0_10.0 Marginal Adhesion=1.0_3.0 Clump Thickness=6.0_10.0 THEN 4
+IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=1.0_3.0 Bland Chromatin=4.0_10.0 Bare Nuclei=4.0_10.0 Marginal Adhesion=4.0_10.0 THEN 4
+IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=1.0_3.0 Bland Chromatin=4.0_10.0 Bare Nuclei=1.0_3.0 THEN 4
+IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=1.0_2.0 Cell Size=1.0_3.0 Marginal Adhesion=1.0_3.0 THEN 2
+IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=1.0_2.0 Cell Size=1.0_3.0 Marginal Adhesion=4.0_10.0 THEN 4
+IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=1.0_2.0 Cell Size=4.0_10.0 THEN 4
+IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=1.0_3.0 Mitoses=1.0 Single Epithelial Cell Size=1.0_2.0 Clump Thickness=1.0_5.0 Bare Nuclei=1.0_3.0 Normal Nucleoli=1.0_2.0 THEN 2
+IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=1.0_3.0 Mitoses=1.0 Single Epithelial Cell Size=1.0_2.0 Clump Thickness=1.0_5.0 Bare Nuclei=1.0_3.0 Normal Nucleoli=3.0_10.0 Bland Chromatin=1.0_3.0 THEN 2
+IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=1.0_3.0 Mitoses=1.0 Single Epithelial Cell Size=1.0_2.0 Clump Thickness=1.0_5.0 Bare Nuclei=1.0_3.0 Normal Nucleoli=3.0_10.0 Bland Chromatin=4.0_10.0 THEN 2
+IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=1.0_3.0 Mitoses=1.0 Single Epithelial Cell Size=1.0_2.0 Clump Thickness=1.0_5.0 Bare Nuclei=4.0_10.0 Normal Nucleoli=1.0_2.0 Bland Chromatin=1.0_3.0 THEN 2
+IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=1.0_3.0 Mitoses=1.0 Single Epithelial Cell Size=1.0_2.0 Clump Thickness=1.0_5.0 Bare Nuclei=4.0_10.0 Normal Nucleoli=1.0_2.0 Bland Chromatin=4.0_10.0 THEN 2
+IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=1.0_3.0 Mitoses=1.0 Single Epithelial Cell Size=1.0_2.0 Clump Thickness=1.0_5.0 Bare Nuclei=4.0_10.0 Normal Nucleoli=3.0_10.0 THEN 2
+IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=1.0_3.0 Mitoses=1.0 Single Epithelial Cell Size=1.0_2.0 Clump Thickness=6.0_10.0 Bare Nuclei=1.0_3.0 THEN 2
+IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=1.0_3.0 Mitoses=1.0 Single Epithelial Cell Size=1.0_2.0 Clump Thickness=6.0_10.0 Bare Nuclei=4.0_10.0 THEN 4
+IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=1.0_3.0 Mitoses=1.0 Single Epithelial Cell Size=3.0_10.0 Clump Thickness=1.0_5.0 Bland Chromatin=1.0_3.0 Normal Nucleoli=1.0_2.0 Bare Nuclei=1.0_3.0 THEN 2
+IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=1.0_3.0 Mitoses=1.0 Single Epithelial Cell Size=3.0_10.0 Clump Thickness=1.0_5.0 Bland Chromatin=1.0_3.0 Normal Nucleoli=1.0_2.0 Bare Nuclei=4.0_10.0 THEN 2
+IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=1.0_3.0 Mitoses=1.0 Single Epithelial Cell Size=3.0_10.0 Clump Thickness=1.0_5.0 Bland Chromatin=1.0_3.0 Normal Nucleoli=3.0_10.0 THEN 2
+IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=1.0_3.0 Mitoses=1.0 Single Epithelial Cell Size=3.0_10.0 Clump Thickness=1.0_5.0 Bland Chromatin=4.0_10.0 THEN 2
+IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=1.0_3.0 Mitoses=1.0 Single Epithelial Cell Size=3.0_10.0 Clump Thickness=6.0_10.0 THEN 4
+IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=1.0_3.0 Mitoses=2.0_8.0_10.0 Clump Thickness=6.0_10.0 THEN 4
+IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=1.0_3.0 Mitoses=2.0_8.0_10.0 Clump Thickness=1.0_5.0 Bare Nuclei=1.0_3.0 Bland Chromatin=4.0_10.0 THEN 2
+IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=1.0_3.0 Mitoses=2.0_8.0_10.0 Clump Thickness=1.0_5.0 Bare Nuclei=1.0_3.0 Bland Chromatin=1.0_3.0 Normal Nucleoli=3.0_10.0 THEN 4
+IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=1.0_3.0 Mitoses=2.0_8.0_10.0 Clump Thickness=1.0_5.0 Bare Nuclei=1.0_3.0 Bland Chromatin=1.0_3.0 Normal Nucleoli=1.0_2.0 THEN 2
+IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=1.0_3.0 Mitoses=2.0_8.0_10.0 Clump Thickness=1.0_5.0 Bare Nuclei=4.0_10.0 THEN 2
+IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=4.0_10.0 Bland Chromatin=1.0_3.0 Single Epithelial Cell Size=3.0_10.0 THEN 2
+IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=4.0_10.0 Bland Chromatin=1.0_3.0 Single Epithelial Cell Size=1.0_2.0 Normal Nucleoli=3.0_10.0 THEN 4
+IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=4.0_10.0 Bland Chromatin=1.0_3.0 Single Epithelial Cell Size=1.0_2.0 Normal Nucleoli=1.0_2.0 THEN 2
+IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=4.0_10.0 Bland Chromatin=4.0_10.0 THEN 4
+IF  Cell Shape=1.0_3.0 Cell Size=4.0_10.0 THEN 4

@@ -297,3 +297,17 @@ printTree(n)
 n.predictedClass
 
 print('accuracy=',(x)*100/(testSize))
+import sys
+sys.stdout = open('rules.txt','w')
+def ruleCr(n,temp):
+    if n.testAttr == '':
+        print(temp + ' THEN ' + n.predictedClass)
+        return
+    for k,v in n.children.items():
+        # if b == 1:
+        #     print('IF '+ n.testAttr + '=' + k)
+        # else:
+        ruleCr(v,temp + ' ' + n.testAttr + '=' + k)
+    return
+
+ruleCr(n,'IF ')
