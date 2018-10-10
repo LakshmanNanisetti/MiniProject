@@ -1,0 +1,7 @@
+Temperature of patient:380.0_415.0,355.0_379.0
+Occurrence of nausea:yes,no
+Lumbar pain:yes,no
+Urine pushing (continuous need for urination):yes,no
+Micturition pains:yes,no
+Burning of urethra itch swelling of urethra outlet:yes,no
+Inflammation of urinary bladder:yes,no
