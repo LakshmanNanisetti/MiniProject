@@ -3,7 +3,7 @@
 
 # # Improved ID3 algorithm for clinical data classification
 
-# In[1]:
+# In[64]:
 
 
 # Import the libraries used
@@ -18,20 +18,19 @@ parser.add_argument('-d','--data',
                     help='Name of the dataset file',
                     dest='dataFile',
                     required=True)
-# parser.add_argument('-a','--attributes',
-#                     help='Name of the attributes file',
-#                     dest='dattFile',
-#                     required=True)
-# parser.add_argument('-c','--class',
-#                     help='Name of the class file',
-#                     dest='cattFile',
-#                     required=True)                                     
-args = parser.parse_args()                    
-# In[10]:
+args = parser.parse_args()        
+# In[65]:
+
+
+# Read the data set into reader
+with open(args.dataFile + '-des.csv', 'rb') as f:
+    reader = unicodecsv.DictReader(f)
+
+
+# In[66]:
 
 
 diagnosis = []
-print(args.dataFile)
 f = open(args.dataFile + '-des.csv', 'rb')
 reader = unicodecsv.DictReader(f)
 for row in reader:
@@ -39,7 +38,7 @@ for row in reader:
 f.close()
 
 
-# In[14]:
+# In[67]:
 
 
 # Length of read data set
@@ -48,7 +47,7 @@ print(len(diagnosis))
 diagnosis[0]
 
 
-# In[15]:
+# In[68]:
 
 
 # Data Wrangling: If the tuple contains missing values remove that tuple
@@ -59,18 +58,19 @@ def check(data):
     return True
 
 
-# In[17]:
+# In[69]:
 
 
 # clean the data and store it in the cleanedData variable
 cleanedData=[]
 for diag in diagnosis:
     if check(diag):
+        # diag.pop('id')
         cleanedData.append(diag)
     
 
 
-# In[18]:
+# In[70]:
 
 
 # Node in a ID3 tree
@@ -81,9 +81,12 @@ class Node:
         self.children={}
     def __str__(self):
         return self.testAttr
+                    
+                        
+        
 def printTree(n):
     print(n)
-    if not isinstance(n,Node) or len(n.children)==0:
+    if len(n.children)==0:
         return
     print('children are:')
     for k,v in n.children.items():
@@ -92,7 +95,7 @@ def printTree(n):
         printTree(v)
 
 
-# In[25]:
+# In[71]:
 
 
 # Import breastAttr.txt into breastAttr
@@ -102,7 +105,7 @@ with open(args.dataFile + '-datt.txt','r') as f:
 s=breastAttr.split('\n')
 
 
-# In[27]:
+# In[201]:
 
 
 # possVals is a dictionary containing attrname and its possible values
@@ -113,25 +116,25 @@ for line in s:
 possVals
 
 
-# In[30]:
+# In[202]:
 
 
 # From breastClass get the classes present and their respective values
 possClassValues=[]
-with open(args.dataFile + '-catt.txt', 'r') as f:
+with open(args.dataFile + '-catt.txt','r') as f:
     breastClass=f.read()
 classLine=breastClass.split(':')
 className = classLine[0]
 possClassValues = classLine[1].split(',')
 
 
-# In[31]:
+# In[203]:
 
 
-# print(possClassValues,className)
+print(possClassValues,className)
 
 
-# In[32]:
+# In[204]:
 
 
 # Balance function which decides on which attribute the node should split the tree
@@ -146,19 +149,30 @@ def entropy(edata):
     return e
 
 
-# In[33]:
+# In[205]:
 
 
 # IID3 improvisation: balance function to reduce multivariate splits
-def balance(attrLen,imp = False):
-    if not imp:
-        return 1
+def balance(attrLen):
     ans=cos(3.5*attrLen-1.5)/1.8
     ans*=log2(sqrt(attrLen+1))
     return abs(ans)
 
 
-# In[35]:
+# In[217]:
+
+
+def getChild(trainData):
+    classCount = defaultdict(int)
+    for ex in trainData:
+        classCount[ex[className]] += 1
+    vals = list(classCount.values())
+    keys = list(classCount.keys())
+    cls = keys[vals.index(max(vals))]
+    return Node('',cls)
+
+
+# In[218]:
 
 
 # The Improved ID3 algorithm written here as train
@@ -190,7 +204,10 @@ def train(trainData,attributes):
         info[attr] = 1
         for attrVal in attrTrainData.values():
             info[attr] += (len(attrVal)/n)*entropy(attrVal)
-            gain[attr] = (e-info[attr])/balance(len(attrVals),imp = True)
+            if len(attrVals)==0:
+                print(attr)
+                print(possVals)
+            gain[attr] = (e-info[attr])/balance(len(attrVals))
     maxAttr = attributes[0]
     maxGain = gain[maxAttr]
     for k,v in gain.items():
@@ -203,29 +220,27 @@ def train(trainData,attributes):
         splitTrainData[ex[maxAttr]].append(ex)
     newAttrs = attributes[:]
     newAttrs.remove(maxAttr)
+    allAttrs = possVals[maxAttr][:]
     for splitAttrVal, splitData in splitTrainData.items():
-        if len(splitData)==0:
-            print('calling')
-            n.children[splitAttrVal] = getChild(n,splitAttrVal)
-        else:
-            n.children[splitAttrVal]=train(splitData,newAttrs)
+        if splitAttrVal in allAttrs:
+            allAttrs.remove(splitAttrVal)
+        n.children[splitAttrVal]=train(splitData,newAttrs)
+    for att in allAttrs:
+        print(maxAttr,att)
+        n.children[att] = getChild(trainData)
     return n
 
 
-# In[36]:
-def getChild(n,curAttVal):
-    classCount = defaultdict(int)
-    for ex in cleanedData:
-        if ex[n.testAttr] == curAttVal:
-            classCount[ex[className]] += 1
-    vals = list(classCount.values())
-    clss = list(classCount.keys())
-    print('got child')
-    return Node('',clss[vals.index(max( vals))])        
+# In[219]:
 
 
+trainSize = len(cleanedData)*4//5
+testSize = len(cleanedData) - trainSize
+cleanedData = np.random.permutation(cleanedData)
+n=train(cleanedData[:trainSize],list(possVals.keys()))
 
-# In[37]:
+
+# In[220]:
 
 
 # Testing function to check the accuracy of the algorithm
@@ -238,28 +253,47 @@ def testing1(n,trainData):
             while p.testAttr!='':
                 child=ex[p.testAttr]
                 p=p.children[child]
-            # print(p.predictedClass,ex[className])
+            print(p.predictedClass,ex[className])
             if p.predictedClass==ex[className]:
                 x+=1
         except:
             ab+=1
-            print("except")
     return x,ab
 
 
-# In[42]:
-size = len(cleanedData)
-trainSize = 4*size//5
-testSize = size-trainSize
-print('trainSize={0},size={1}'.format(trainSize,size))
-cleanedData = np.random.permutation(cleanedData)
-n=train(cleanedData[:trainSize],list(possVals.keys()))
-
-cor,incor=testing1(n,cleanedData[trainSize:])
+# In[221]:
 
 
-# In[45]:
+x, ab=testing1(n,cleanedData[trainSize:])
 
-print(cor,incor,testSize,trainSize)
-print('accuracy={0}\terror rate={1}\t'.format(cor/testSize*100,incor/testSize*100))
 
+# In[226]:
+
+
+print(x,ab)
+
+
+# In[223]:
+
+
+print((x)*100/(testSize))
+
+
+# In[224]:
+
+
+printTree(n)
+
+
+# In[173]:
+
+
+# n=getChild(cleanedData[515:519])
+
+
+# In[135]:
+
+
+n.predictedClass
+
+print('accuracy=',(x)*100/(testSize))

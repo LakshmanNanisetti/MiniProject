@@ -7,4 +7,3 @@ Bare Nuclei:1.0_3.0,4.0_10.0
 Bland Chromatin:1.0_3.0,4.0_10.0
 Normal Nucleoli:1.0_2.0,3.0_10.0
 Mitoses:1.0,2.0_8.0_10.0
-Class:2,4

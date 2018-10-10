@@ -1,0 +1,13 @@
+age:29.0_76.0,35.0_77.0
+sex:0,1
+chest pain type:1.0_3.0,4.0_4.0
+blood pressure:94.0_178.0,110.0_200.0
+cholestoral:126.0_564.0,164.0_409.0
+fasting blood sugar:0,1
+electrocardiographic:0,1,2
+heart rate:96.0_202.0,71.0_195.0
+induced angina:0,1
+oldpeak:0.0_4.2,0.9_6.2
+ST segment:1,2,3
+major vessels:0,1,2,3
+thal:3,6,7
