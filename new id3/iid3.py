@@ -204,12 +204,24 @@ def train(trainData,attributes):
     newAttrs = attributes[:]
     newAttrs.remove(maxAttr)
     for splitAttrVal, splitData in splitTrainData.items():
-        n.children[splitAttrVal]=train(splitData,newAttrs)
+        if len(splitData)==0:
+            print('calling')
+            n.children[splitAttrVal] = getChild(n,splitAttrVal)
+        else:
+            n.children[splitAttrVal]=train(splitData,newAttrs)
     return n
 
 
 # In[36]:
-
+def getChild(n,curAttVal):
+    classCount = defaultdict(int)
+    for ex in cleanedData:
+        if ex[n.testAttr] == curAttVal:
+            classCount[ex[className]] += 1
+    vals = list(classCount.values())
+    clss = list(classCount.keys())
+    print('got child')
+    return Node('',clss[vals.index(max( vals))])        
 
 
 
@@ -226,7 +238,7 @@ def testing1(n,trainData):
             while p.testAttr!='':
                 child=ex[p.testAttr]
                 p=p.children[child]
-            print(p.predictedClass,ex[className])
+            # print(p.predictedClass,ex[className])
             if p.predictedClass==ex[className]:
                 x+=1
         except:
@@ -250,4 +262,4 @@ cor,incor=testing1(n,cleanedData[trainSize:])
 
 print(cor,incor,testSize,trainSize)
 print('accuracy={0}\terror rate={1}\t'.format(cor/testSize*100,incor/testSize*100))
-printTree(n)
+
