@@ -1,63 +1,97 @@
-IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=3.0_10.0 Bare Nuclei=4.0_10.0 Clump Thickness=6.0_10.0 Mitoses=1.0 Marginal Adhesion=4.0_10.0 THEN 4
-IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=3.0_10.0 Bare Nuclei=4.0_10.0 Clump Thickness=6.0_10.0 Mitoses=1.0 Marginal Adhesion=1.0_3.0 Bland Chromatin=1.0_3.0 THEN 4
-IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=3.0_10.0 Bare Nuclei=4.0_10.0 Clump Thickness=6.0_10.0 Mitoses=1.0 Marginal Adhesion=1.0_3.0 Bland Chromatin=4.0_10.0 THEN 4
-IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=3.0_10.0 Bare Nuclei=4.0_10.0 Clump Thickness=6.0_10.0 Mitoses=2.0_8.0_10.0 Bland Chromatin=4.0_10.0 Marginal Adhesion=4.0_10.0 THEN 4
-IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=3.0_10.0 Bare Nuclei=4.0_10.0 Clump Thickness=6.0_10.0 Mitoses=2.0_8.0_10.0 Bland Chromatin=4.0_10.0 Marginal Adhesion=1.0_3.0 THEN 4
-IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=3.0_10.0 Bare Nuclei=4.0_10.0 Clump Thickness=6.0_10.0 Mitoses=2.0_8.0_10.0 Bland Chromatin=1.0_3.0 THEN 4
-IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=3.0_10.0 Bare Nuclei=4.0_10.0 Clump Thickness=1.0_5.0 Marginal Adhesion=4.0_10.0 Bland Chromatin=4.0_10.0 Mitoses=1.0 THEN 4
-IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=3.0_10.0 Bare Nuclei=4.0_10.0 Clump Thickness=1.0_5.0 Marginal Adhesion=4.0_10.0 Bland Chromatin=4.0_10.0 Mitoses=2.0_8.0_10.0 THEN 4
-IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=3.0_10.0 Bare Nuclei=4.0_10.0 Clump Thickness=1.0_5.0 Marginal Adhesion=4.0_10.0 Bland Chromatin=1.0_3.0 THEN 4
-IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=3.0_10.0 Bare Nuclei=4.0_10.0 Clump Thickness=1.0_5.0 Marginal Adhesion=1.0_3.0 Bland Chromatin=1.0_3.0 Mitoses=1.0 THEN 2
-IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=3.0_10.0 Bare Nuclei=4.0_10.0 Clump Thickness=1.0_5.0 Marginal Adhesion=1.0_3.0 Bland Chromatin=1.0_3.0 Mitoses=2.0_8.0_10.0 THEN 2
-IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=3.0_10.0 Bare Nuclei=4.0_10.0 Clump Thickness=1.0_5.0 Marginal Adhesion=1.0_3.0 Bland Chromatin=4.0_10.0 THEN 4
-IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=3.0_10.0 Bare Nuclei=1.0_3.0 Bland Chromatin=1.0_3.0 Marginal Adhesion=1.0_3.0 Clump Thickness=1.0_5.0 THEN 2
-IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=3.0_10.0 Bare Nuclei=1.0_3.0 Bland Chromatin=1.0_3.0 Marginal Adhesion=1.0_3.0 Clump Thickness=6.0_10.0 THEN 4
-IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=3.0_10.0 Bare Nuclei=1.0_3.0 Bland Chromatin=1.0_3.0 Marginal Adhesion=4.0_10.0 THEN 4
-IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=3.0_10.0 Bare Nuclei=1.0_3.0 Bland Chromatin=4.0_10.0 Mitoses=1.0 Clump Thickness=6.0_10.0 THEN 4
-IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=3.0_10.0 Bare Nuclei=1.0_3.0 Bland Chromatin=4.0_10.0 Mitoses=1.0 Clump Thickness=1.0_5.0 Marginal Adhesion=1.0_3.0 THEN 2
-IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=3.0_10.0 Bare Nuclei=1.0_3.0 Bland Chromatin=4.0_10.0 Mitoses=1.0 Clump Thickness=1.0_5.0 Marginal Adhesion=4.0_10.0 THEN 4
-IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=3.0_10.0 Bare Nuclei=1.0_3.0 Bland Chromatin=4.0_10.0 Mitoses=2.0_8.0_10.0 THEN 4
-IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=1.0_2.0 Clump Thickness=1.0_5.0 Mitoses=1.0 Marginal Adhesion=4.0_10.0 Bland Chromatin=4.0_10.0 THEN 4
-IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=1.0_2.0 Clump Thickness=1.0_5.0 Mitoses=1.0 Marginal Adhesion=4.0_10.0 Bland Chromatin=1.0_3.0 Bare Nuclei=4.0_10.0 THEN 2
-IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=1.0_2.0 Clump Thickness=1.0_5.0 Mitoses=1.0 Marginal Adhesion=4.0_10.0 Bland Chromatin=1.0_3.0 Bare Nuclei=1.0_3.0 THEN 4
-IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=1.0_2.0 Clump Thickness=1.0_5.0 Mitoses=1.0 Marginal Adhesion=1.0_3.0 THEN 4
-IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=1.0_2.0 Clump Thickness=1.0_5.0 Mitoses=2.0_8.0_10.0 THEN 4
-IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=1.0_2.0 Clump Thickness=6.0_10.0 Bare Nuclei=4.0_10.0 Bland Chromatin=4.0_10.0 Marginal Adhesion=4.0_10.0 Mitoses=2.0_8.0_10.0 THEN 4
-IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=1.0_2.0 Clump Thickness=6.0_10.0 Bare Nuclei=4.0_10.0 Bland Chromatin=4.0_10.0 Marginal Adhesion=4.0_10.0 Mitoses=1.0 THEN 4
-IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=1.0_2.0 Clump Thickness=6.0_10.0 Bare Nuclei=4.0_10.0 Bland Chromatin=4.0_10.0 Marginal Adhesion=1.0_3.0 THEN 4
-IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=1.0_2.0 Clump Thickness=6.0_10.0 Bare Nuclei=4.0_10.0 Bland Chromatin=1.0_3.0 THEN 4
-IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=4.0_10.0 Normal Nucleoli=1.0_2.0 Clump Thickness=6.0_10.0 Bare Nuclei=1.0_3.0 THEN 4
-IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=1.0_3.0 Bland Chromatin=1.0_3.0 Clump Thickness=6.0_10.0 THEN 4
-IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=1.0_3.0 Bland Chromatin=1.0_3.0 Clump Thickness=1.0_5.0 THEN 2
-IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=1.0_3.0 Bland Chromatin=4.0_10.0 Bare Nuclei=4.0_10.0 Marginal Adhesion=1.0_3.0 Clump Thickness=1.0_5.0 Mitoses=1.0 Normal Nucleoli=3.0_10.0 THEN 4
-IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=1.0_3.0 Bland Chromatin=4.0_10.0 Bare Nuclei=4.0_10.0 Marginal Adhesion=1.0_3.0 Clump Thickness=1.0_5.0 Mitoses=1.0 Normal Nucleoli=1.0_2.0 THEN 4
-IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=1.0_3.0 Bland Chromatin=4.0_10.0 Bare Nuclei=4.0_10.0 Marginal Adhesion=1.0_3.0 Clump Thickness=1.0_5.0 Mitoses=2.0_8.0_10.0 THEN 4
-IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=1.0_3.0 Bland Chromatin=4.0_10.0 Bare Nuclei=4.0_10.0 Marginal Adhesion=1.0_3.0 Clump Thickness=6.0_10.0 THEN 4
-IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=1.0_3.0 Bland Chromatin=4.0_10.0 Bare Nuclei=4.0_10.0 Marginal Adhesion=4.0_10.0 THEN 4
-IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=3.0_10.0 Cell Size=1.0_3.0 Bland Chromatin=4.0_10.0 Bare Nuclei=1.0_3.0 THEN 4
-IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=1.0_2.0 Cell Size=1.0_3.0 Marginal Adhesion=1.0_3.0 THEN 2
-IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=1.0_2.0 Cell Size=1.0_3.0 Marginal Adhesion=4.0_10.0 THEN 4
-IF  Cell Shape=4.0_10.0 Single Epithelial Cell Size=1.0_2.0 Cell Size=4.0_10.0 THEN 4
-IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=1.0_3.0 Mitoses=1.0 Single Epithelial Cell Size=1.0_2.0 Clump Thickness=1.0_5.0 Bare Nuclei=1.0_3.0 Normal Nucleoli=1.0_2.0 THEN 2
-IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=1.0_3.0 Mitoses=1.0 Single Epithelial Cell Size=1.0_2.0 Clump Thickness=1.0_5.0 Bare Nuclei=1.0_3.0 Normal Nucleoli=3.0_10.0 Bland Chromatin=1.0_3.0 THEN 2
-IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=1.0_3.0 Mitoses=1.0 Single Epithelial Cell Size=1.0_2.0 Clump Thickness=1.0_5.0 Bare Nuclei=1.0_3.0 Normal Nucleoli=3.0_10.0 Bland Chromatin=4.0_10.0 THEN 2
-IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=1.0_3.0 Mitoses=1.0 Single Epithelial Cell Size=1.0_2.0 Clump Thickness=1.0_5.0 Bare Nuclei=4.0_10.0 Normal Nucleoli=1.0_2.0 Bland Chromatin=1.0_3.0 THEN 2
-IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=1.0_3.0 Mitoses=1.0 Single Epithelial Cell Size=1.0_2.0 Clump Thickness=1.0_5.0 Bare Nuclei=4.0_10.0 Normal Nucleoli=1.0_2.0 Bland Chromatin=4.0_10.0 THEN 2
-IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=1.0_3.0 Mitoses=1.0 Single Epithelial Cell Size=1.0_2.0 Clump Thickness=1.0_5.0 Bare Nuclei=4.0_10.0 Normal Nucleoli=3.0_10.0 THEN 2
-IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=1.0_3.0 Mitoses=1.0 Single Epithelial Cell Size=1.0_2.0 Clump Thickness=6.0_10.0 Bare Nuclei=1.0_3.0 THEN 2
-IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=1.0_3.0 Mitoses=1.0 Single Epithelial Cell Size=1.0_2.0 Clump Thickness=6.0_10.0 Bare Nuclei=4.0_10.0 THEN 4
-IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=1.0_3.0 Mitoses=1.0 Single Epithelial Cell Size=3.0_10.0 Clump Thickness=1.0_5.0 Bland Chromatin=1.0_3.0 Normal Nucleoli=1.0_2.0 Bare Nuclei=1.0_3.0 THEN 2
-IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=1.0_3.0 Mitoses=1.0 Single Epithelial Cell Size=3.0_10.0 Clump Thickness=1.0_5.0 Bland Chromatin=1.0_3.0 Normal Nucleoli=1.0_2.0 Bare Nuclei=4.0_10.0 THEN 2
-IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=1.0_3.0 Mitoses=1.0 Single Epithelial Cell Size=3.0_10.0 Clump Thickness=1.0_5.0 Bland Chromatin=1.0_3.0 Normal Nucleoli=3.0_10.0 THEN 2
-IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=1.0_3.0 Mitoses=1.0 Single Epithelial Cell Size=3.0_10.0 Clump Thickness=1.0_5.0 Bland Chromatin=4.0_10.0 THEN 2
-IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=1.0_3.0 Mitoses=1.0 Single Epithelial Cell Size=3.0_10.0 Clump Thickness=6.0_10.0 THEN 4
-IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=1.0_3.0 Mitoses=2.0_8.0_10.0 Clump Thickness=6.0_10.0 THEN 4
-IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=1.0_3.0 Mitoses=2.0_8.0_10.0 Clump Thickness=1.0_5.0 Bare Nuclei=1.0_3.0 Bland Chromatin=4.0_10.0 THEN 2
-IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=1.0_3.0 Mitoses=2.0_8.0_10.0 Clump Thickness=1.0_5.0 Bare Nuclei=1.0_3.0 Bland Chromatin=1.0_3.0 Normal Nucleoli=3.0_10.0 THEN 4
-IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=1.0_3.0 Mitoses=2.0_8.0_10.0 Clump Thickness=1.0_5.0 Bare Nuclei=1.0_3.0 Bland Chromatin=1.0_3.0 Normal Nucleoli=1.0_2.0 THEN 2
-IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=1.0_3.0 Mitoses=2.0_8.0_10.0 Clump Thickness=1.0_5.0 Bare Nuclei=4.0_10.0 THEN 2
-IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=4.0_10.0 Bland Chromatin=1.0_3.0 Single Epithelial Cell Size=3.0_10.0 THEN 2
-IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=4.0_10.0 Bland Chromatin=1.0_3.0 Single Epithelial Cell Size=1.0_2.0 Normal Nucleoli=3.0_10.0 THEN 4
-IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=4.0_10.0 Bland Chromatin=1.0_3.0 Single Epithelial Cell Size=1.0_2.0 Normal Nucleoli=1.0_2.0 THEN 2
-IF  Cell Shape=1.0_3.0 Cell Size=1.0_3.0 Marginal Adhesion=4.0_10.0 Bland Chromatin=4.0_10.0 THEN 4
-IF  Cell Shape=1.0_3.0 Cell Size=4.0_10.0 THEN 4
+IF  major vessels=1 ST segment=1 thal=3 electrocardiographic=2 cholestoral=126.0_564.0 sex=0 THEN 1
+IF  major vessels=1 ST segment=1 thal=3 electrocardiographic=2 cholestoral=126.0_564.0 sex=1 chest pain type=1.0_3.0 THEN 1
+IF  major vessels=1 ST segment=1 thal=3 electrocardiographic=2 cholestoral=126.0_564.0 sex=1 chest pain type=4.0_4.0 THEN 2
+IF  major vessels=1 ST segment=1 thal=3 electrocardiographic=2 cholestoral=164.0_409.0 THEN 2
+IF  major vessels=1 ST segment=1 thal=3 electrocardiographic=0 THEN 1
+IF  major vessels=1 ST segment=1 thal=3 electrocardiographic=1 THEN 1
+IF  major vessels=1 ST segment=1 thal=7 electrocardiographic=0 chest pain type=4.0_4.0 THEN 2
+IF  major vessels=1 ST segment=1 thal=7 electrocardiographic=0 chest pain type=1.0_3.0 THEN 1
+IF  major vessels=1 ST segment=1 thal=7 electrocardiographic=2 THEN 2
+IF  major vessels=1 ST segment=1 thal=7 electrocardiographic=1 THEN 2
+IF  major vessels=1 ST segment=1 thal=6 THEN 1
+IF  major vessels=1 ST segment=2 electrocardiographic=2 thal=6 THEN 2
+IF  major vessels=1 ST segment=2 electrocardiographic=2 thal=7 THEN 2
+IF  major vessels=1 ST segment=2 electrocardiographic=2 thal=3 chest pain type=1.0_3.0 blood pressure=94.0_178.0 THEN 2
+IF  major vessels=1 ST segment=2 electrocardiographic=2 thal=3 chest pain type=1.0_3.0 blood pressure=110.0_200.0 THEN 1
+IF  major vessels=1 ST segment=2 electrocardiographic=2 thal=3 chest pain type=4.0_4.0 THEN 2
+IF  major vessels=1 ST segment=2 electrocardiographic=0 thal=7 fasting blood sugar=0 oldpeak=0.9_6.2 THEN 2
+IF  major vessels=1 ST segment=2 electrocardiographic=0 thal=7 fasting blood sugar=0 oldpeak=0.0_4.2 chest pain type=1.0_3.0 THEN 2
+IF  major vessels=1 ST segment=2 electrocardiographic=0 thal=7 fasting blood sugar=0 oldpeak=0.0_4.2 chest pain type=4.0_4.0 THEN 1
+IF  major vessels=1 ST segment=2 electrocardiographic=0 thal=7 fasting blood sugar=1 THEN 2
+IF  major vessels=1 ST segment=2 electrocardiographic=0 thal=3 THEN 2
+IF  major vessels=1 ST segment=2 electrocardiographic=0 thal=6 THEN 2
+IF  major vessels=1 ST segment=2 electrocardiographic=1 THEN 2
+IF  major vessels=1 ST segment=3 THEN 2
+IF  major vessels=3 ST segment=2 thal=7 electrocardiographic=2 THEN 2
+IF  major vessels=3 ST segment=2 thal=7 electrocardiographic=0 age=29.0_76.0 THEN 2
+IF  major vessels=3 ST segment=2 thal=7 electrocardiographic=0 age=35.0_77.0 THEN 1
+IF  major vessels=3 ST segment=2 thal=7 electrocardiographic=1 THEN 2
+IF  major vessels=3 ST segment=2 thal=3 THEN 2
+IF  major vessels=3 ST segment=2 thal=6 THEN 2
+IF  major vessels=3 ST segment=3 THEN 2
+IF  major vessels=3 ST segment=1 THEN 2
+IF  major vessels=0 thal=3 electrocardiographic=0 ST segment=1 heart rate=96.0_202.0 fasting blood sugar=0 cholestoral=126.0_564.0 oldpeak=0.0_4.2 age=29.0_76.0 blood pressure=110.0_200.0 THEN 1
+IF  major vessels=0 thal=3 electrocardiographic=0 ST segment=1 heart rate=96.0_202.0 fasting blood sugar=0 cholestoral=126.0_564.0 oldpeak=0.0_4.2 age=29.0_76.0 blood pressure=94.0_178.0 induced angina=0 chest pain type=1.0_3.0 sex=1 THEN 1
+IF  major vessels=0 thal=3 electrocardiographic=0 ST segment=1 heart rate=96.0_202.0 fasting blood sugar=0 cholestoral=126.0_564.0 oldpeak=0.0_4.2 age=29.0_76.0 blood pressure=94.0_178.0 induced angina=0 chest pain type=1.0_3.0 sex=0 THEN 1
+IF  major vessels=0 thal=3 electrocardiographic=0 ST segment=1 heart rate=96.0_202.0 fasting blood sugar=0 cholestoral=126.0_564.0 oldpeak=0.0_4.2 age=29.0_76.0 blood pressure=94.0_178.0 induced angina=0 chest pain type=4.0_4.0 THEN 1
+IF  major vessels=0 thal=3 electrocardiographic=0 ST segment=1 heart rate=96.0_202.0 fasting blood sugar=0 cholestoral=126.0_564.0 oldpeak=0.0_4.2 age=29.0_76.0 blood pressure=94.0_178.0 induced angina=1 THEN 1
+IF  major vessels=0 thal=3 electrocardiographic=0 ST segment=1 heart rate=96.0_202.0 fasting blood sugar=0 cholestoral=126.0_564.0 oldpeak=0.0_4.2 age=35.0_77.0 THEN 1
+IF  major vessels=0 thal=3 electrocardiographic=0 ST segment=1 heart rate=96.0_202.0 fasting blood sugar=0 cholestoral=126.0_564.0 oldpeak=0.9_6.2 THEN 1
+IF  major vessels=0 thal=3 electrocardiographic=0 ST segment=1 heart rate=96.0_202.0 fasting blood sugar=0 cholestoral=164.0_409.0 THEN 2
+IF  major vessels=0 thal=3 electrocardiographic=0 ST segment=1 heart rate=96.0_202.0 fasting blood sugar=1 THEN 1
+IF  major vessels=0 thal=3 electrocardiographic=0 ST segment=1 heart rate=71.0_195.0 THEN 1
+IF  major vessels=0 thal=3 electrocardiographic=0 ST segment=2 cholestoral=126.0_564.0 blood pressure=94.0_178.0 age=29.0_76.0 THEN 1
+IF  major vessels=0 thal=3 electrocardiographic=0 ST segment=2 cholestoral=126.0_564.0 blood pressure=94.0_178.0 age=35.0_77.0 sex=1 THEN 1
+IF  major vessels=0 thal=3 electrocardiographic=0 ST segment=2 cholestoral=126.0_564.0 blood pressure=94.0_178.0 age=35.0_77.0 sex=0 THEN 2
+IF  major vessels=0 thal=3 electrocardiographic=0 ST segment=2 cholestoral=126.0_564.0 blood pressure=110.0_200.0 THEN 1
+IF  major vessels=0 thal=3 electrocardiographic=0 ST segment=2 cholestoral=164.0_409.0 THEN 2
+IF  major vessels=0 thal=3 electrocardiographic=0 ST segment=3 THEN 1
+IF  major vessels=0 thal=3 electrocardiographic=2 ST segment=2 cholestoral=126.0_564.0 THEN 1
+IF  major vessels=0 thal=3 electrocardiographic=2 ST segment=2 cholestoral=164.0_409.0 THEN 2
+IF  major vessels=0 thal=3 electrocardiographic=2 ST segment=1 heart rate=96.0_202.0 fasting blood sugar=0 oldpeak=0.0_4.2 induced angina=0 sex=0 age=35.0_77.0 chest pain type=1.0_3.0 THEN 1
+IF  major vessels=0 thal=3 electrocardiographic=2 ST segment=1 heart rate=96.0_202.0 fasting blood sugar=0 oldpeak=0.0_4.2 induced angina=0 sex=0 age=35.0_77.0 chest pain type=4.0_4.0 THEN 2
+IF  major vessels=0 thal=3 electrocardiographic=2 ST segment=1 heart rate=96.0_202.0 fasting blood sugar=0 oldpeak=0.0_4.2 induced angina=0 sex=0 age=29.0_76.0 THEN 1
+IF  major vessels=0 thal=3 electrocardiographic=2 ST segment=1 heart rate=96.0_202.0 fasting blood sugar=0 oldpeak=0.0_4.2 induced angina=0 sex=1 THEN 1
+IF  major vessels=0 thal=3 electrocardiographic=2 ST segment=1 heart rate=96.0_202.0 fasting blood sugar=0 oldpeak=0.0_4.2 induced angina=1 THEN 1
+IF  major vessels=0 thal=3 electrocardiographic=2 ST segment=1 heart rate=96.0_202.0 fasting blood sugar=0 oldpeak=0.9_6.2 THEN 1
+IF  major vessels=0 thal=3 electrocardiographic=2 ST segment=1 heart rate=96.0_202.0 fasting blood sugar=1 THEN 1
+IF  major vessels=0 thal=3 electrocardiographic=2 ST segment=1 heart rate=71.0_195.0 blood pressure=110.0_200.0 THEN 2
+IF  major vessels=0 thal=3 electrocardiographic=2 ST segment=1 heart rate=71.0_195.0 blood pressure=94.0_178.0 THEN 1
+IF  major vessels=0 thal=3 electrocardiographic=2 ST segment=3 THEN 1
+IF  major vessels=0 thal=3 electrocardiographic=1 ST segment=2 age=35.0_77.0 THEN 2
+IF  major vessels=0 thal=3 electrocardiographic=1 ST segment=2 age=29.0_76.0 THEN 1
+IF  major vessels=0 thal=3 electrocardiographic=1 ST segment=1 THEN 2
+IF  major vessels=0 thal=3 electrocardiographic=1 ST segment=3 THEN 2
+IF  major vessels=0 thal=7 ST segment=1 electrocardiographic=0 blood pressure=94.0_178.0 induced angina=0 THEN 1
+IF  major vessels=0 thal=7 ST segment=1 electrocardiographic=0 blood pressure=94.0_178.0 induced angina=1 THEN 2
+IF  major vessels=0 thal=7 ST segment=1 electrocardiographic=0 blood pressure=110.0_200.0 chest pain type=4.0_4.0 THEN 1
+IF  major vessels=0 thal=7 ST segment=1 electrocardiographic=0 blood pressure=110.0_200.0 chest pain type=1.0_3.0 THEN 2
+IF  major vessels=0 thal=7 ST segment=1 electrocardiographic=2 cholestoral=126.0_564.0 age=29.0_76.0 THEN 1
+IF  major vessels=0 thal=7 ST segment=1 electrocardiographic=2 cholestoral=126.0_564.0 age=35.0_77.0 THEN 2
+IF  major vessels=0 thal=7 ST segment=1 electrocardiographic=2 cholestoral=164.0_409.0 THEN 2
+IF  major vessels=0 thal=7 ST segment=1 electrocardiographic=1 THEN 1
+IF  major vessels=0 thal=7 ST segment=2 electrocardiographic=2 chest pain type=4.0_4.0 THEN 2
+IF  major vessels=0 thal=7 ST segment=2 electrocardiographic=2 chest pain type=1.0_3.0 blood pressure=94.0_178.0 THEN 1
+IF  major vessels=0 thal=7 ST segment=2 electrocardiographic=2 chest pain type=1.0_3.0 blood pressure=110.0_200.0 THEN 2
+IF  major vessels=0 thal=7 ST segment=2 electrocardiographic=0 cholestoral=126.0_564.0 THEN 1
+IF  major vessels=0 thal=7 ST segment=2 electrocardiographic=0 cholestoral=164.0_409.0 THEN 2
+IF  major vessels=0 thal=7 ST segment=2 electrocardiographic=1 THEN 2
+IF  major vessels=0 thal=7 ST segment=3 electrocardiographic=2 chest pain type=4.0_4.0 THEN 2
+IF  major vessels=0 thal=7 ST segment=3 electrocardiographic=2 chest pain type=1.0_3.0 THEN 1
+IF  major vessels=0 thal=7 ST segment=3 electrocardiographic=0 age=35.0_77.0 THEN 2
+IF  major vessels=0 thal=7 ST segment=3 electrocardiographic=0 age=29.0_76.0 THEN 1
+IF  major vessels=0 thal=7 ST segment=3 electrocardiographic=1 THEN 2
+IF  major vessels=0 thal=6 electrocardiographic=2 THEN 1
+IF  major vessels=0 thal=6 electrocardiographic=0 ST segment=2 oldpeak=0.0_4.2 THEN 1
+IF  major vessels=0 thal=6 electrocardiographic=0 ST segment=2 oldpeak=0.9_6.2 THEN 2
+IF  major vessels=0 thal=6 electrocardiographic=0 ST segment=1 THEN 1
+IF  major vessels=0 thal=6 electrocardiographic=0 ST segment=3 THEN 1
+IF  major vessels=0 thal=6 electrocardiographic=1 THEN 1
+IF  major vessels=2 thal=7 THEN 2
+IF  major vessels=2 thal=3 ST segment=2 THEN 2
+IF  major vessels=2 thal=3 ST segment=1 electrocardiographic=2 age=35.0_77.0 THEN 2
+IF  major vessels=2 thal=3 ST segment=1 electrocardiographic=2 age=29.0_76.0 THEN 1
+IF  major vessels=2 thal=3 ST segment=1 electrocardiographic=0 THEN 1
+IF  major vessels=2 thal=3 ST segment=1 electrocardiographic=1 THEN 1
+IF  major vessels=2 thal=3 ST segment=3 THEN 2
+IF  major vessels=2 thal=6 THEN 2

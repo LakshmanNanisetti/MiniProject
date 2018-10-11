@@ -23,7 +23,7 @@ args = parser.parse_args()
 
 
 # Read the data set into reader
-with open(args.dataFile + '-des.csv', 'rb') as f:
+with open(args.dataFile + '.csv', 'rb') as f:
     reader = unicodecsv.DictReader(f)
 
 
@@ -31,7 +31,7 @@ with open(args.dataFile + '-des.csv', 'rb') as f:
 
 
 diagnosis = []
-f = open(args.dataFile + '-des.csv', 'rb')
+f = open(args.dataFile + '.csv', 'rb')
 reader = unicodecsv.DictReader(f)
 for row in reader:
     diagnosis.append(row)
@@ -100,7 +100,7 @@ def printTree(n):
 
 # Import breastAttr.txt into breastAttr
 # The breastAttr contains attributes in the data set and their possible values
-with open(args.dataFile + '-datt.txt','r') as f:
+with open(args.dataFile + '-a.txt','r') as f:
     breastAttr=f.read()
 s=breastAttr.split('\n')
 
@@ -121,7 +121,7 @@ possVals
 
 # From breastClass get the classes present and their respective values
 possClassValues=[]
-with open(args.dataFile + '-catt.txt','r') as f:
+with open(args.dataFile + '-c.txt','r') as f:
     breastClass=f.read()
 classLine=breastClass.split(':')
 className = classLine[0]
@@ -207,7 +207,7 @@ def train(trainData,attributes):
             if len(attrVals)==0:
                 print(attr)
                 print(possVals)
-            gain[attr] = (e-info[attr])/balance(len(attrVals))
+            gain[attr] = (e-info[attr])
     maxAttr = attributes[0]
     maxGain = gain[maxAttr]
     for k,v in gain.items():
@@ -224,7 +224,7 @@ def train(trainData,attributes):
     for splitAttrVal, splitData in splitTrainData.items():
         if splitAttrVal in allAttrs:
             allAttrs.remove(splitAttrVal)
-        n.children[splitAttrVal]=train(splitData,newAttrs)
+        n.children[splitAttrVal]=getChild(splitData)
     for att in allAttrs:
         print(maxAttr,att)
         n.children[att] = getChild(trainData)
@@ -233,9 +233,9 @@ def train(trainData,attributes):
 
 # In[219]:
 
-size = len(cleanedData)
-trainSize = size*4//5
-testSize = size - trainSize
+
+trainSize = len(cleanedData)*4//5
+testSize = len(cleanedData) - trainSize
 cleanedData = np.random.permutation(cleanedData)
 n=train(cleanedData[:trainSize],list(possVals.keys()))
 
@@ -304,10 +304,7 @@ def ruleCr(n,temp):
         print(temp + ' THEN ' + n.predictedClass)
         return
     for k,v in n.children.items():
-        # if b == 1:
-        #     print('IF '+ n.testAttr + '=' + k)
-        # else:
-        ruleCr(v,temp + ' ' + n.testAttr + '=' + k)
+        ruleCr(v,temp + ' ' +n.testAttr + '=' + k)
     return
 
 ruleCr(n,'IF ')
